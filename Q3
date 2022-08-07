@@ -1,0 +1,14 @@
+'''
+Q3. Write a Python program to square the elements of a list using map() function.
+Sample List: [4, 5, 2, 9]
+Square the elements of the list: [16, 25, 4, 81]
+
+'''
+
+size_input=int(input("enter the size: "))
+lst=[]
+for i in range(size_input):
+    num=int(input("Enter the number: "))
+    lst.append(num) 
+data =list(map(lambda num : num*num,lst))
+print("Square the elements of the list :",data)

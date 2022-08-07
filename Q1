@@ -1,0 +1,11 @@
+'''
+Q1 Write a Python program to create a lambda function that adds 25 to a given number passed in as an argument.
+
+sample input: 10
+sample output: 35 '''
+
+user_input=int(input("Enter the Number:"))
+data=lambda num:num+25
+result=data(user_input)
+print("The final Outcome is :",result)
+
